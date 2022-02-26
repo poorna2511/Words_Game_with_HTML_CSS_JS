@@ -1,0 +1,83 @@
+
+body {
+    background-image: url("bg.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainbody {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    user-select: none;
+    /*background-image: url("bg.png");*/
+    /*background-color: navy;*/
+}
+
+#gameBoard {
+    width: auto;
+    height: auto;
+    /*background-color: pink;*/
+    position: relative;
+    align-items: center;
+    /*left: 50%;*/
+}
+
+#keyboard {
+    position: relative;
+    align-items: center;
+    top:40px;
+    /*background-color: red;*/
+    /*left: 50%;*/
+}
+
+table, th, td {
+    width: auto;
+    height: auto;
+    border: 5px solid rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+table {
+    left: 50%;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: silver;
+    border: 4px solid rgba(0, 0, 0, 0);
+}
+
+.keyRow {
+    width: max-content;
+    align-items: center;
+    /*background-color: aqua;*/
+    position: relative;
+    left: 50%;
+}
+
+.key {
+    width: 40px;
+    height: 60px;
+    font-size: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-color: silver;
+}
+
+#Enter{
+    width:70px;
+}
